@@ -154,12 +154,12 @@ Atlas is built in phases. Each milestone should be demo-able and have clear exit
 
 ### 0) Foundations
 
-- [ ] Repository structure and conventions
-- [ ] Baseline UI layout (graph canvas + fixed filter pane + inspector shell)
-- [ ] Minimal data format definition (companies + facets + links)
-- [ ] Local development workflow and build/run scripts
-- [ ] Basic error handling strategy (missing fields, broken links)
-- [ ] Seed dataset stub for development
+- [x] Repository structure and conventions
+- [x] Baseline UI layout (graph canvas + fixed filter pane + inspector shell)
+- [x] Minimal data format definition (companies + facets + links)
+- [x] Local development workflow and build/run scripts
+- [x] Basic error handling strategy (missing fields, broken links)
+- [x] Seed dataset stub for development
 
 **Exit criteria**
 
@@ -171,18 +171,18 @@ Atlas is built in phases. Each milestone should be demo-able and have clear exit
 
 ### 1) Data model: companies + facets
 
-- [ ] Define canonical company schema:
+- [x] Define canonical company schema:
   - name
   - tags/facets
   - careers link (primary)
   - website link (secondary)
   - locations (if available)
-- [ ] Define canonical facet schema:
+- [x] Define canonical facet schema:
   - facet id
   - label
   - facet group (e.g., sector/location/visa)
-- [ ] Define edge generation rules (company ↔ facet membership)
-- [ ] Validate input data on load (report missing careers links, unknown facets)
+- [x] Define edge generation rules (company ↔ facet membership)
+- [x] Validate input data on load (report missing careers links, unknown facets)
 
 **Exit criteria**
 
@@ -194,11 +194,11 @@ Atlas is built in phases. Each milestone should be demo-able and have clear exit
 
 ### 2) Graph rendering baseline
 
-- [ ] Render company nodes and facet nodes
-- [ ] Distinguish node types visually (company vs facet)
-- [ ] Support pan/zoom smoothly
-- [ ] Node selection (single click)
-- [ ] Basic label strategy (avoid clutter)
+- [x] Render company nodes and facet nodes
+- [x] Distinguish node types visually (company vs facet)
+- [x] Support pan/zoom smoothly
+- [x] Node selection (single click)
+- [x] Basic label strategy (avoid clutter)
 
 **Exit criteria**
 
@@ -209,10 +209,10 @@ Atlas is built in phases. Each milestone should be demo-able and have clear exit
 
 ### 3) Obsidian-style traversal (recenter)
 
-- [ ] Click facet → recenter around that node
-- [ ] Define neighbourhood expansion rules (e.g., 1-hop and optional 2-hop)
-- [ ] Keep traversal stable and reversible (back stack or breadcrumb)
-- [ ] Avoid “graph soup” by limiting visible nodes intelligently
+- [x] Click facet → recenter around that node
+- [x] Define neighbourhood expansion rules (e.g., 1-hop and optional 2-hop)
+- [x] Keep traversal stable and reversible (back stack or breadcrumb)
+- [x] Avoid “graph soup” by limiting visible nodes intelligently
 
 **Exit criteria**
 
@@ -223,13 +223,13 @@ Atlas is built in phases. Each milestone should be demo-able and have clear exit
 
 ### 4) Fixed filter pane (hard pruning)
 
-- [ ] Fixed top-left filter pane UI
-- [ ] Filter groups (sector/location/visa at minimum)
-- [ ] Include/exclude logic per group
-- [ ] Hard pruning behaviour:
+- [x] Fixed top-left filter pane UI
+- [x] Filter groups (sector/location/visa at minimum)
+- [x] Include/exclude logic per group
+- [x] Hard pruning behaviour:
   - non-matching companies removed
   - disconnected facets removed
-- [ ] Clear “active filters” display
+- [x] Clear “active filters” display
 
 **Exit criteria**
 

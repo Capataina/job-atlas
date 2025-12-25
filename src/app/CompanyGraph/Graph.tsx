@@ -17,9 +17,14 @@ interface GraphProps {
 export default function Graph({ data, onNodeClick }: GraphProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const networkRef = useRef<Network | null>(null);
+  const timeoutRefsRef = useRef<NodeJS.Timeout[]>([]);
 
   useEffect(() => {
     if (!containerRef.current) return;
+
+    // Clear any existing timeouts
+    timeoutRefsRef.current.forEach((timeout) => clearTimeout(timeout));
+    timeoutRefsRef.current = [];
 
     // Prepare vis-network data format
     const nodes = data.nodes.map((node) => {
@@ -238,17 +243,24 @@ export default function Graph({ data, onNodeClick }: GraphProps) {
 
     // Create network
     const network = new Network(containerRef.current, visData, options);
+    networkRef.current = network;
 
     // Center the view on the base node after network is created
     // Use setTimeout to ensure network is fully initialized
-    setTimeout(() => {
-      network.moveTo({ position: { x: 0, y: 0 }, scale: 1 });
+    const timeout1 = setTimeout(() => {
+      if (networkRef.current) {
+        networkRef.current.moveTo({ position: { x: 0, y: 0 }, scale: 1 });
+      }
     }, 100);
+    timeoutRefsRef.current.push(timeout1);
 
     // Center view again after a delay to account for stabilization
-    setTimeout(() => {
-      network.moveTo({ position: { x: 0, y: 0 }, scale: 1 });
+    const timeout2 = setTimeout(() => {
+      if (networkRef.current) {
+        networkRef.current.moveTo({ position: { x: 0, y: 0 }, scale: 1 });
+      }
     }, 2000);
+    timeoutRefsRef.current.push(timeout2);
 
     // Keep physics enabled at all times for dynamic, interactive graph
 
@@ -259,13 +271,15 @@ export default function Graph({ data, onNodeClick }: GraphProps) {
         const node = data.nodes.find((n) => n.id === nodeId);
 
         // Recenter the view on the clicked node (Obsidian-style behavior)
-        network.focus(nodeId, {
-          scale: 1.2,
-          animation: {
-            duration: 500,
-            easingFunction: "easeInOutQuad",
-          },
-        });
+        if (networkRef.current) {
+          networkRef.current.focus(nodeId, {
+            scale: 1.2,
+            animation: {
+              duration: 500,
+              easingFunction: "easeInOutQuad",
+            },
+          });
+        }
 
         if (node && onNodeClick) {
           onNodeClick(nodeId, node);
@@ -273,10 +287,12 @@ export default function Graph({ data, onNodeClick }: GraphProps) {
       }
     });
 
-    networkRef.current = network;
-
     // Cleanup
     return () => {
+      // Clear all pending timeouts
+      timeoutRefsRef.current.forEach((timeout) => clearTimeout(timeout));
+      timeoutRefsRef.current = [];
+
       if (networkRef.current) {
         networkRef.current.destroy();
         networkRef.current = null;
