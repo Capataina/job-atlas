@@ -28,7 +28,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "ocado",
     name: "Ocado",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized engineering roles in the UK.",
@@ -45,7 +45,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "octopus-energy",
     name: "Octopus Energy",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist tech roles; confirm per posting.",
@@ -67,7 +67,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "trainline",
     name: "Trainline",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship limited; roles often require UK work authorization.",
@@ -84,7 +84,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "just-eat",
     name: "Just Eat",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for select roles; varies by region.",
@@ -106,7 +106,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "deliveroo",
     name: "Deliveroo",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialist engineering roles.",
@@ -123,7 +123,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "expedia",
     name: "Expedia Group",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for engineering roles in US and Europe.",
@@ -145,7 +145,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "tripadvisor",
     name: "Tripadvisor",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for select roles; varies by region.",
@@ -162,7 +162,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "roku",
     name: "Roku",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for specialized engineering roles.",
@@ -179,7 +179,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "zynga",
     name: "Zynga",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select engineering roles.",
@@ -196,7 +196,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "runna",
     name: "Runna",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -213,7 +213,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "travelperk",
     name: "TravelPerk",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist roles; confirm per posting.",
@@ -234,7 +234,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "compare-the-market",
     name: "Compare the Market",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship uncommon; roles typically require UK work authorization.",
@@ -251,7 +251,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "hyperexponential",
     name: "hyperexponential",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -268,7 +268,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "addepar",
     name: "Addepar",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized engineering roles.",
@@ -285,7 +285,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "clearwater",
     name: "Clearwater Analytics",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist roles.",
@@ -306,7 +306,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "titanbay",
     name: "Titanbay",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified.",
@@ -323,7 +323,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "trayport",
     name: "Trayport",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialist roles in London.",
@@ -340,7 +340,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "aveva",
     name: "Aveva",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select roles; varies by region.",
@@ -362,7 +362,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "veeva",
     name: "Veeva Systems",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for specialized engineering roles.",
@@ -384,7 +384,7 @@ export const enterpriseIndustryAndConsumerTech: Company[] = [
   {
     id: "salesforce",
     name: "Salesforce",
-    fields: [Field.EnterpriseIndustryandConsumerTech],
+    field: Field.EnterpriseIndustryandConsumerTech,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for engineering roles across major hubs.",

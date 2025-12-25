@@ -35,7 +35,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "goldman-sachs",
     name: "Goldman Sachs",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for engineering and quantitative roles in major hubs.",
@@ -57,7 +57,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "jpmorgan",
     name: "JPMorgan Chase",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for software, infrastructure, and quant roles.",
@@ -79,7 +79,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "morgan-stanley",
     name: "Morgan Stanley",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for specialized engineering and quant roles.",
@@ -101,7 +101,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "citi",
     name: "Citi",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for high-need engineering and quant roles.",
@@ -123,7 +123,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "ubs",
     name: "UBS",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist roles across major hubs.",
@@ -145,7 +145,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "deutsche-bank",
     name: "Deutsche Bank",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specific engineering and quant roles.",
@@ -167,7 +167,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "bnp-paribas",
     name: "BNP Paribas",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized roles; varies by country.",
@@ -188,7 +188,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "hsbc",
     name: "HSBC",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for select engineering and risk roles.",
@@ -209,7 +209,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "wells-fargo",
     name: "Wells Fargo",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for high-need engineering roles in the US.",
@@ -226,7 +226,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "barclays",
     name: "Barclays",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialist roles; varies by location.",
@@ -247,7 +247,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "lloyds",
     name: "Lloyds Banking Group",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship limited; typically hires with existing work authorization in the UK.",
@@ -264,7 +264,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "natwest",
     name: "NatWest Group",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship limited and role-dependent in the UK.",
@@ -281,7 +281,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "blackrock",
     name: "BlackRock",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for Aladdin engineering and analytics roles.",
@@ -303,7 +303,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "vanguard",
     name: "Vanguard",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select technology roles in the US.",
@@ -320,7 +320,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "pimco",
     name: "PIMCO",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized investment and technology roles.",
@@ -341,7 +341,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "capital-group",
     name: "Capital Group",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized technology roles.",
@@ -358,7 +358,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "blackstone",
     name: "Blackstone",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized technology and investment roles.",
@@ -379,7 +379,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "apollo",
     name: "Apollo",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist technology roles.",
@@ -396,7 +396,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "ares",
     name: "Ares Management",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select roles; confirm per posting.",
@@ -417,7 +417,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "neuberger-berman",
     name: "Neuberger Berman",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist roles.",
@@ -434,7 +434,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "state-street",
     name: "State Street",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized roles; varies by region.",
@@ -455,7 +455,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "mufg",
     name: "MUFG",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship depends on region and business unit.",
@@ -472,7 +472,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "schroders",
     name: "Schroders",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select roles in the UK and Europe.",
@@ -489,7 +489,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "close-brothers",
     name: "Close Brothers",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship uncommon; typically requires existing UK work authorization.",
@@ -506,7 +506,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "jefferies",
     name: "Jefferies",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized roles in US/UK.",
@@ -523,7 +523,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "phoenix-group",
     name: "Phoenix Group",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship not common; roles typically require UK work authorization.",
@@ -540,7 +540,7 @@ export const traditionalFinance: Company[] = [
   {
     id: "legal-and-general",
     name: "Legal & General",
-    fields: [Field.TraditionalFinance],
+    field: Field.TraditionalFinance,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship limited; verify per role.",

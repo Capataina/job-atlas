@@ -32,7 +32,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "cloudflare",
     name: "Cloudflare",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for specialized engineering roles across major hubs.",
@@ -54,7 +54,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "databricks",
     name: "Databricks",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for engineering roles in US and Europe.",
@@ -77,7 +77,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "snowflake",
     name: "Snowflake",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsors cloud data roles across North America and Europe.",
@@ -100,7 +100,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "mongodb",
     name: "MongoDB",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for engineering roles across major hubs.",
@@ -123,7 +123,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "elastic",
     name: "Elastic",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsors distributed teams across North America and Europe.",
@@ -146,7 +146,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "redis",
     name: "Redis",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized roles; varies by region.",
@@ -167,7 +167,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "snyk",
     name: "Snyk",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for key engineering roles in US/UK/Canada.",
@@ -188,7 +188,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "okta",
     name: "Okta",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for identity engineering roles in core hubs.",
@@ -211,7 +211,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "palo-alto-networks",
     name: "Palo Alto Networks",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for high-need security engineering roles.",
@@ -234,7 +234,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "fortinet",
     name: "Fortinet",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship varies by region; available for specialized security roles.",
@@ -256,7 +256,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "check-point",
     name: "Check Point",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not consistently advertised; confirm per role.",
@@ -278,7 +278,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "zscaler",
     name: "Zscaler",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for in-demand cloud security roles.",
@@ -300,7 +300,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "servicenow",
     name: "ServiceNow",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for platform and infrastructure roles in major hubs.",
@@ -323,7 +323,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "splunk",
     name: "Splunk",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for specialized observability and security roles.",
@@ -345,7 +345,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "vercel",
     name: "Vercel",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Remote-first hiring; sponsorship varies by role and location.",
@@ -362,7 +362,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "mathworks",
     name: "MathWorks",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for specialized engineering roles in US and Europe.",
@@ -388,7 +388,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "dataiku",
     name: "Dataiku",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for select roles in Europe and North America.",
@@ -410,7 +410,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "automata",
     name: "Automata",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -427,7 +427,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "proton",
     name: "Proton",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -444,7 +444,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "luminance",
     name: "Luminance",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -461,7 +461,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "opentext",
     name: "OpenText",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized roles; varies by region.",
@@ -483,7 +483,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "intersystems",
     name: "InterSystems",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized healthcare and data platform roles.",
@@ -505,7 +505,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "matillion",
     name: "Matillion",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -522,7 +522,7 @@ export const developerCloudAndDataSaaS: Company[] = [
   {
     id: "zendesk",
     name: "Zendesk",
-    fields: [Field.DeveloperCloudandDataSaaS],
+    field: Field.DeveloperCloudandDataSaaS,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select engineering roles; varies by region.",

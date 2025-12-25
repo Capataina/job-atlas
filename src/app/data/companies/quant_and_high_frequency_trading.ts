@@ -38,7 +38,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "jane-street",
     name: "Jane Street",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.VeryHigh,
       notes: "Consistent sponsorship for trading and engineering roles across hubs.",
@@ -59,7 +59,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "optiver",
     name: "Optiver",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.VeryHigh,
       notes: "Regular sponsorship for trading, research, and engineering in EU/US.",
@@ -80,7 +80,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "imc-trading",
     name: "IMC Trading",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.VeryHigh,
       notes: "Regular sponsorship for trading and engineering roles.",
@@ -101,7 +101,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "flow-traders",
     name: "Flow Traders",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for trading and engineering roles in core hubs.",
@@ -122,7 +122,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "jump-trading",
     name: "Jump Trading",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.VeryHigh,
       notes: "Regular sponsorship for research, trading, and engineering roles.",
@@ -139,7 +139,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "drw",
     name: "DRW",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for specialized trading and engineering roles.",
@@ -156,7 +156,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "tower-research",
     name: "Tower Research Capital",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for engineering and trading in key hubs.",
@@ -173,7 +173,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "hudson-river-trading",
     name: "Hudson River Trading",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for research and engineering roles.",
@@ -190,7 +190,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "citadel",
     name: "Citadel",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.VeryHigh,
       notes: "Regular sponsorship for investment, research, and engineering roles.",
@@ -207,7 +207,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "citadel-securities",
     name: "Citadel Securities",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.VeryHigh,
       notes: "Regular sponsorship for trading and engineering roles.",
@@ -224,7 +224,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "two-sigma",
     name: "Two Sigma",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.VeryHigh,
       notes: "Consistent sponsorship for engineering and research roles.",
@@ -241,7 +241,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "g-research",
     name: "G-Research",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for qualified research and engineering roles in the UK.",
@@ -258,7 +258,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "xtx-markets",
     name: "XTX Markets",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for specialized quant and engineering roles.",
@@ -275,7 +275,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "worldquant",
     name: "WorldQuant",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for select research and engineering roles.",
@@ -292,7 +292,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "qrt",
     name: "Qube Research & Technologies",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for specialist quant and engineering roles.",
@@ -309,7 +309,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "squarepoint",
     name: "Squarepoint Capital",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for select quantitative and engineering roles.",
@@ -330,7 +330,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "maven",
     name: "Maven Securities",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select trading and engineering roles in London.",
@@ -347,7 +347,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "schonfeld",
     name: "Schonfeld",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized roles; varies by region.",
@@ -364,7 +364,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "dv-trading",
     name: "DV Trading",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not consistently advertised; confirm per role.",
@@ -381,7 +381,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "mako",
     name: "Mako",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified.",
@@ -398,7 +398,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "brevan-howard",
     name: "Brevan Howard",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist roles in core hubs.",
@@ -415,7 +415,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "balyasny",
     name: "Balyasny Asset Management (BAM)",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select systematic and engineering roles.",
@@ -432,7 +432,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "verition",
     name: "Verition",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized roles in the US and UK.",
@@ -449,7 +449,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "cubist-systematic",
     name: "Cubist Systematic Strategies",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized roles; part of Point72.",
@@ -466,7 +466,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "winton",
     name: "Winton",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist research and engineering roles.",
@@ -483,7 +483,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "arctic-lake",
     name: "Arctic Lake",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -500,7 +500,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "bloomberg",
     name: "Bloomberg",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for specialized engineering roles across hubs.",
@@ -523,7 +523,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "cme-group",
     name: "CME Group",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select engineering roles.",
@@ -540,7 +540,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "ice",
     name: "Intercontinental Exchange (ICE)",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized roles; confirm per posting.",
@@ -557,7 +557,7 @@ export const quantAndHighFrequencyTrading: Company[] = [
   {
     id: "cboe",
     name: "Cboe Global Markets",
-    fields: [Field.QuantAndHighFrequencyTrading],
+    field: Field.QuantAndHighFrequencyTrading,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select engineering roles.",

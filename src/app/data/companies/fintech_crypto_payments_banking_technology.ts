@@ -42,7 +42,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "monzo",
     name: "Monzo",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Limited sponsorship; most roles expect UK work authorization.",
@@ -59,7 +59,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "starling",
     name: "Starling Bank",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Limited sponsorship; typically requires UK work authorization.",
@@ -76,7 +76,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "revolut",
     name: "Revolut",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for some roles across Europe and the US.",
@@ -99,7 +99,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "wise",
     name: "Wise",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist roles in EU/US/UK.",
@@ -121,7 +121,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "zopa",
     name: "Zopa Bank",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Limited sponsorship; roles typically require UK work authorization.",
@@ -138,7 +138,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "kroo",
     name: "Kroo Bank",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship limited; confirm per role.",
@@ -155,7 +155,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "oaknorth",
     name: "OakNorth",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist engineering roles.",
@@ -172,7 +172,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "allica",
     name: "Allica Bank",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship uncommon; UK work authorization typically required.",
@@ -189,7 +189,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "lhv",
     name: "LHV Bank",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship policies not publicly specified; confirm per role.",
@@ -206,7 +206,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "funding-circle",
     name: "Funding Circle",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship limited; roles often require UK work authorization.",
@@ -223,7 +223,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "iwoca",
     name: "Iwoca",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship uncommon; roles typically UK-based.",
@@ -240,7 +240,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "youlend",
     name: "YouLend",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -257,7 +257,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "moneybox",
     name: "Moneybox",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship policies not publicly specified.",
@@ -274,7 +274,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "freetrade",
     name: "Freetrade",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -291,7 +291,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "clearscore",
     name: "ClearScore",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified.",
@@ -308,7 +308,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "cleo",
     name: "Cleo",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -325,7 +325,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "dojo",
     name: "Dojo",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified.",
@@ -342,7 +342,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "stripe",
     name: "Stripe",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for engineering roles across US and Europe.",
@@ -365,7 +365,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "adyen",
     name: "Adyen",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsorship available for key roles in Europe and the US.",
@@ -388,7 +388,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "checkout",
     name: "Checkout.com",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized roles.",
@@ -410,7 +410,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "gocardless",
     name: "GoCardless",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist roles in the UK and Europe.",
@@ -431,7 +431,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "thredd",
     name: "Thredd",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified.",
@@ -448,7 +448,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "yapily",
     name: "Yapily",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -465,7 +465,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "thought-machine",
     name: "Thought Machine",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized engineering roles.",
@@ -487,7 +487,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "fnz",
     name: "FNZ",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship varies by region; confirm per role.",
@@ -509,7 +509,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "apron",
     name: "Apron",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -526,7 +526,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "nsave",
     name: "Nsave",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -543,7 +543,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "newday",
     name: "NewDay",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified.",
@@ -560,7 +560,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "prima-insurance",
     name: "Prima Insurance",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -577,7 +577,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "ki-insurance",
     name: "Ki Insurance",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -594,7 +594,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "coinbase",
     name: "Coinbase",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialist roles; varies by region.",
@@ -617,7 +617,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "kraken",
     name: "Kraken",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship policies vary by region; confirm per role.",
@@ -638,7 +638,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "crypto-com",
     name: "Crypto.com",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -659,7 +659,7 @@ export const fintechCryptoPaymentsBankingTechnology: Company[] = [
   {
     id: "keyrock",
     name: "Keyrock",
-    fields: [Field.FintechCryptoPaymentsBankingTechnology],
+    field: Field.FintechCryptoPaymentsBankingTechnology,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",

@@ -23,7 +23,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "mckinsey",
     name: "McKinsey",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist tech roles; varies by office.",
@@ -45,7 +45,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "bcg",
     name: "Boston Consulting Group (BCG)",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist tech roles; varies by office.",
@@ -67,7 +67,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "deloitte",
     name: "Deloitte",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship varies by member firm and role.",
@@ -90,7 +90,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "pwc",
     name: "PwC",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship depends on territory and practice; confirm per role.",
@@ -113,7 +113,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "ey",
     name: "EY",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship varies by member firm; confirm per role.",
@@ -136,7 +136,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "kpmg",
     name: "KPMG",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship varies by member firm; confirm per role.",
@@ -159,7 +159,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "accenture",
     name: "Accenture",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Regular sponsorship for technology and consulting roles in major hubs.",
@@ -182,7 +182,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "capgemini",
     name: "Capgemini",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship varies by region; confirm per role.",
@@ -205,7 +205,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "cgi",
     name: "CGI",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized roles; varies by region.",
@@ -228,7 +228,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "expleo",
     name: "Expleo",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -245,7 +245,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "reply",
     name: "Reply",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship varies by country; confirm per role.",
@@ -262,7 +262,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "solirius-reply",
     name: "Solirius Reply",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship; confirm per role.",
@@ -279,7 +279,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "softwire",
     name: "Softwire",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Low,
       notes: "Sponsorship limited; roles typically require UK work authorization.",
@@ -296,7 +296,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "dxc",
     name: "DXC Technology",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized roles; varies by region.",
@@ -319,7 +319,7 @@ export const consultingAndProfessionalServices: Company[] = [
   {
     id: "alten",
     name: "Alten",
-    fields: [Field.COnsultingAndProfessionalServices],
+    field: Field.COnsultingAndProfessionalServices,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship varies by country; confirm per role.",

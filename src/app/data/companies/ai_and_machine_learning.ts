@@ -33,7 +33,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "openai",
     name: "OpenAI",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,  
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsors specialized US roles in research, engineering, and policy.",
@@ -50,7 +50,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "anthropic",
     name: "Anthropic",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsors select roles across US and UK offices.",
@@ -67,7 +67,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "cohere",
     name: "Cohere",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for in-demand roles in North America.",
@@ -84,7 +84,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "xai",
     name: "xAI",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship availability not broadly advertised; varies by role.",
@@ -101,7 +101,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "mistral-ai",
     name: "Mistral AI",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; depends on role and location.",
@@ -118,7 +118,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "perplexity",
     name: "Perplexity",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -135,7 +135,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "elevenlabs",
     name: "ElevenLabs",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for select engineering roles in core hubs.",
@@ -152,7 +152,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "deepl",
     name: "DeepL",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.High,
       notes: "Sponsors specialized engineering and research roles in Europe and the US.",
@@ -174,7 +174,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "synthesia",
     name: "Synthesia",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship evaluated case-by-case for key roles.",
@@ -191,7 +191,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "instadeep",
     name: "InstaDeep",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized roles; varies by region.",
@@ -208,7 +208,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "isomorphic-labs",
     name: "Isomorphic Labs",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for specialized scientific and engineering roles.",
@@ -225,7 +225,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "unlikely-ai",
     name: "Unlikely AI",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -242,7 +242,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "reflection-ai",
     name: "Reflection AI",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -259,7 +259,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "faculty",
     name: "Faculty",
-    fields: [Field.AIAndMachineLearning],
+      field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized roles in the UK.",
@@ -276,7 +276,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "encord",
     name: "Encord",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized engineering roles.",
@@ -293,7 +293,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "speechmatics",
     name: "Speechmatics",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship available for select roles; varies by location.",
@@ -310,7 +310,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "writer",
     name: "Writer",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -327,7 +327,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "v7",
     name: "V7",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -344,7 +344,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "plumerai",
     name: "Plumerai",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship not publicly specified; confirm per role.",
@@ -361,7 +361,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "predictiva-ai",
     name: "Predictiva AI",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -378,7 +378,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "webuildai",
     name: "WeBuildAI",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -395,7 +395,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "tomoro-ai",
     name: "Tomoro AI",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -412,7 +412,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "ai-connect",
     name: "AI Connect",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -429,7 +429,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "neuphonic",
     name: "Neuphonic",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship.",
@@ -446,7 +446,7 @@ export const aiAndMachineLearning: Company[] = [
   {
     id: "quantexa",
     name: "Quantexa",
-    fields: [Field.AIAndMachineLearning],
+    field: Field.AIAndMachineLearning,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized roles across hubs.",

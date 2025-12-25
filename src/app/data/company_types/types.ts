@@ -15,7 +15,7 @@ export type Careers =
 export type Company = {
   id: string;
   name: string;
-  fields: Field[];
+  field: Field;
   visaSponsorship: {
     likelihood: VisaSponsorship;
     notes: string;

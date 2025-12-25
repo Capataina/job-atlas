@@ -60,7 +60,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "redtech",
     name: "RedTech",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -74,7 +74,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "client-server",
     name: "Client Server",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -88,7 +88,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "lorien",
     name: "Lorien",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -102,7 +102,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "noir",
     name: "Noir",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -116,7 +116,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "prism-digital",
     name: "Prism Digital",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -130,7 +130,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "realm",
     name: "Realm",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -144,7 +144,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "seekr",
     name: "SEEKR",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -158,7 +158,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "platform",
     name: "Platform",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -172,7 +172,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "intellect",
     name: "Intellect",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -186,7 +186,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "mthree",
     name: "mthree",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Talent program provider; sponsorship varies by client placement.",
@@ -203,7 +203,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "harnham",
     name: "Harnham",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom, OfficeLocation.UnitedStates],
     careers: {
@@ -217,7 +217,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "haystack",
     name: "Haystack",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Recruiter/job platform; not an employer.",
@@ -234,7 +234,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "jack-and-jill",
     name: "Jack & Jill",
-    fields: [Field.RecruitersAndTalentAcquisition],
+        field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -248,7 +248,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "humand-talent",
     name: "Humand Talent",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -262,7 +262,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "oho-group",
     name: "Oho Group",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -276,7 +276,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "experis",
     name: "Experis",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Staffing provider; sponsorship varies by engagement.",
@@ -297,7 +297,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "opus",
     name: "Opus",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom, OfficeLocation.UnitedStates],
     careers: {
@@ -311,7 +311,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "tria",
     name: "Tria",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -325,7 +325,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "sgi",
     name: "SGI",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -339,7 +339,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "spectrum-it",
     name: "Spectrum IT",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -353,7 +353,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "premier-group",
     name: "Premier Group",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -367,7 +367,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "primis",
     name: "Primis",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -381,7 +381,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "understanding-recruitment",
     name: "Understanding Recruitment",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom, OfficeLocation.UnitedStates],
     careers: {
@@ -398,7 +398,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "anson-mccade",
     name: "Anson McCade",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -412,7 +412,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "ic-resources",
     name: "IC Resources",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom, OfficeLocation.Germany],
     careers: {
@@ -426,7 +426,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "microtech-global",
     name: "MicroTech Global",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -440,7 +440,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "morgan-mckinley",
     name: "Morgan McKinley",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom, OfficeLocation.UnitedStates],
     careers: {
@@ -454,7 +454,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "talan",
     name: "Talan",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Consulting/talent; sponsorship varies by role.",
@@ -471,7 +471,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "oliver-james",
     name: "Oliver James",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom, OfficeLocation.Germany, OfficeLocation.France],
     careers: {
@@ -485,7 +485,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "fruition-group",
     name: "Fruition Group",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -499,7 +499,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "principle-rec",
     name: "Principle Rec",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -513,7 +513,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "mondrian-alpha",
     name: "Mondrian Alpha",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -527,7 +527,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "hunter-bond",
     name: "Hunter Bond",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -541,7 +541,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "efinancialcareers",
     name: "eFinancialCareers",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Job board; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -555,7 +555,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "selby-jennings",
     name: "Selby Jennings",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [
       OfficeLocation.UnitedKingdom,
@@ -573,7 +573,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "fourier-london",
     name: "Fourier London",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -587,7 +587,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "radley-james",
     name: "Radley James",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -601,7 +601,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "oxford-knight",
     name: "Oxford Knight",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -615,7 +615,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "durlston-partners",
     name: "Durlston Partners",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -629,7 +629,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "linux-recruit",
     name: "Linux Recruit",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -643,7 +643,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "saragossa",
     name: "Saragossa",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -657,7 +657,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "tempest-vane",
     name: "Tempest Vane",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -671,7 +671,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "mcgregor-boyall",
     name: "McGregor Boyall",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom, OfficeLocation.UnitedStates],
     careers: {
@@ -685,7 +685,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "albert-bow",
     name: "Albert Bow",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -699,7 +699,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "paragon-alpha",
     name: "Paragon Alpha",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -713,7 +713,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "oliver-bernard",
     name: "Oliver Bernard",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -727,7 +727,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "rjc",
     name: "RJC",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -741,7 +741,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "quant-capital",
     name: "Quant Capital",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -755,7 +755,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "referment",
     name: "Referment",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -769,7 +769,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "stanford-black",
     name: "Stanford Black",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom],
     careers: {
@@ -783,7 +783,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "huxley",
     name: "Huxley",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [
       OfficeLocation.UnitedKingdom,
@@ -802,7 +802,7 @@ export const recruitersAndTalentAcquisition: Company[] = [
   {
     id: "harrington-starr",
     name: "Harrington Starr",
-    fields: [Field.RecruitersAndTalentAcquisition],
+    field: Field.RecruitersAndTalentAcquisition,
     visaSponsorship: { likelihood: VisaSponsorship.Unknown, notes: "Recruiter; not an employer." },
     officeLocations: [OfficeLocation.UnitedKingdom, OfficeLocation.UnitedStates],
     careers: {

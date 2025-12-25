@@ -18,7 +18,7 @@ export const systemsAndInfrastructure: Company[] = [
   {
     id: "graphcore",
     name: "Graphcore",
-    fields: [Field.SystemsAndInfrastructure],
+    field: Field.SystemsAndInfrastructure,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist silicon and systems roles.",
@@ -35,7 +35,7 @@ export const systemsAndInfrastructure: Company[] = [
   {
     id: "mediatek",
     name: "MediaTek",
-    fields: [Field.SystemsAndInfrastructure],
+    field: Field.SystemsAndInfrastructure,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Regional sponsorship policies not publicly specified.",
@@ -52,7 +52,7 @@ export const systemsAndInfrastructure: Company[] = [
   {
     id: "kla",
     name: "KLA",
-    fields: [Field.SystemsAndInfrastructure],
+    field: Field.SystemsAndInfrastructure,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized semiconductor roles.",
@@ -69,7 +69,7 @@ export const systemsAndInfrastructure: Company[] = [
   {
     id: "analog-devices",
     name: "Analog Devices",
-    fields: [Field.SystemsAndInfrastructure],
+    field: Field.SystemsAndInfrastructure,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for critical analog, mixed-signal, and IC design roles.",
@@ -86,7 +86,7 @@ export const systemsAndInfrastructure: Company[] = [
   {
     id: "imagination",
     name: "Imagination Technologies",
-    fields: [Field.SystemsAndInfrastructure],
+    field: Field.SystemsAndInfrastructure,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialist GPU and IP roles.",
@@ -103,7 +103,7 @@ export const systemsAndInfrastructure: Company[] = [
   {
     id: "lowrisc",
     name: "lowRISC",
-    fields: [Field.SystemsAndInfrastructure],
+    field: Field.SystemsAndInfrastructure,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship policies not publicly specified.",
@@ -120,7 +120,7 @@ export const systemsAndInfrastructure: Company[] = [
   {
     id: "riverlane",
     name: "Riverlane",
-    fields: [Field.SystemsAndInfrastructure],
+    field: Field.SystemsAndInfrastructure,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship policies not publicly specified.",
@@ -137,7 +137,7 @@ export const systemsAndInfrastructure: Company[] = [
   {
     id: "quantinuum",
     name: "Quantinuum",
-    fields: [Field.SystemsAndInfrastructure],
+    field: Field.SystemsAndInfrastructure,
     visaSponsorship: {
       likelihood: VisaSponsorship.Medium,
       notes: "Sponsorship considered for specialized quantum hardware and software roles.",
@@ -154,7 +154,7 @@ export const systemsAndInfrastructure: Company[] = [
   {
     id: "five-ai",
     name: "Five AI (Bosch)",
-    fields: [Field.SystemsAndInfrastructure],
+    field: Field.SystemsAndInfrastructure,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "Sponsorship depends on Bosch group policies and role location.",
@@ -171,7 +171,7 @@ export const systemsAndInfrastructure: Company[] = [
   {
     id: "humanoid-robotics",
     name: "Humanoid Robotics",
-    fields: [Field.SystemsAndInfrastructure],
+    field: Field.SystemsAndInfrastructure,
     visaSponsorship: {
       likelihood: VisaSponsorship.Unknown,
       notes: "No public information on sponsorship policies.",
