@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, memo } from "react";
 import { Network, Data, Options, DataSet } from "vis-network/standalone";
 import { GraphData, GraphNode } from "./types";
 import { getFieldColor, getNodeTypeColor, getBrightnessForLevel, applyBrightness } from "./colors";
@@ -13,8 +13,9 @@ interface GraphProps {
 
 /**
  * Main graph component using vis-network
+ * Memoized to prevent unnecessary re-renders when parent state changes
  */
-export default function Graph({ data, onNodeClick }: GraphProps) {
+function Graph({ data, onNodeClick }: GraphProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const networkRef = useRef<Network | null>(null);
   const timeoutRefsRef = useRef<NodeJS.Timeout[]>([]);
@@ -264,22 +265,11 @@ export default function Graph({ data, onNodeClick }: GraphProps) {
 
     // Keep physics enabled at all times for dynamic, interactive graph
 
-    // Handle node click events - recenter on clicked node (Obsidian-style)
+    // Handle node click events
     network.on("click", (params) => {
       if (params.nodes.length > 0) {
         const nodeId = params.nodes[0] as string;
         const node = data.nodes.find((n) => n.id === nodeId);
-
-        // Recenter the view on the clicked node (Obsidian-style behavior)
-        if (networkRef.current) {
-          networkRef.current.focus(nodeId, {
-            scale: 1.2,
-            animation: {
-              duration: 500,
-              easingFunction: "easeInOutQuad",
-            },
-          });
-        }
 
         if (node && onNodeClick) {
           onNodeClick(nodeId, node);
@@ -375,15 +365,20 @@ function getNodeSize(type: GraphNode["type"]): number {
 function getFontSize(type: GraphNode["type"]): number {
   switch (type) {
     case "base":
-      return 1200; // Doubled (200 * 2) for maximum readability
+      return 2400; // Doubled (200 * 2) for maximum readability
     case "field":
-      return 960; // Doubled (180 * 2) for maximum readability
+      return 1600; // Doubled (180 * 2) for maximum readability
     case "visaSponsorship":
-      return 720; // Doubled (140 * 2) for maximum readability
+      return 1000; // Doubled (140 * 2) for maximum readability
     case "company":
-      return 600; // Doubled (120 * 2) for maximum readability
+      return 800; // Doubled (120 * 2) for maximum readability
     default:
-      return 480;
+      return 600;
   }
 }
 
+// Export memoized version to prevent re-renders on parent state changes
+export default memo(Graph, (prevProps, nextProps) => {
+  // Only re-render if the data actually changes (not onNodeClick)
+  return prevProps.data === nextProps.data;
+});

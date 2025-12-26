@@ -6,6 +6,7 @@ import { OfficeLocation, VisaSponsorship } from "../data/company_types/enums";
 export interface FilterState {
   officeLocations: OfficeLocation[];
   visaSponsorships: VisaSponsorship[];
+  canCreateAccountOnCareersSite: boolean;
 }
 
 interface FilterPaneProps {
@@ -131,6 +132,7 @@ function FilterSection({
 export default function FilterPane({ filters, onFiltersChange }: FilterPaneProps) {
   const [isOfficeLocationsOpen, setIsOfficeLocationsOpen] = useState(true);
   const [isVisaSponsorshipOpen, setIsVisaSponsorshipOpen] = useState(true);
+  const [isCanCreateAccountOpen, setIsCanCreateAccountOpen] = useState(true);
 
   const toggleOfficeLocation = (location: OfficeLocation) => {
     const newLocations = filters.officeLocations.includes(location)
@@ -146,12 +148,16 @@ export default function FilterPane({ filters, onFiltersChange }: FilterPaneProps
     onFiltersChange({ ...filters, visaSponsorships: newSponsorships });
   };
 
-  const clearAllFilters = () => {
-    onFiltersChange({ officeLocations: [], visaSponsorships: [] });
+  const toggleCanCreateAccount = () => {
+    onFiltersChange({ ...filters, canCreateAccountOnCareersSite: !filters.canCreateAccountOnCareersSite });
   };
 
-  const hasActiveFilters = filters.officeLocations.length > 0 || filters.visaSponsorships.length > 0;
-  const totalActiveFilters = filters.officeLocations.length + filters.visaSponsorships.length;
+  const clearAllFilters = () => {
+    onFiltersChange({ officeLocations: [], visaSponsorships: [], canCreateAccountOnCareersSite: false });
+  };
+
+  const hasActiveFilters = filters.officeLocations.length > 0 || filters.visaSponsorships.length > 0 || filters.canCreateAccountOnCareersSite;
+  const totalActiveFilters = filters.officeLocations.length + filters.visaSponsorships.length + (filters.canCreateAccountOnCareersSite ? 1 : 0);
 
   return (
     <div className="fixed top-6 left-6 z-50 w-[340px] animate-in fade-in slide-in-from-left-5 duration-300">
@@ -216,6 +222,23 @@ export default function FilterPane({ filters, onFiltersChange }: FilterPaneProps
                 onClick={() => toggleVisaSponsorship(sponsorship)}
               />
             ))}
+          </FilterSection>
+
+          {/* Divider */}
+          <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
+          {/* Can Create Account on Careers Site */}
+          <FilterSection
+            title="Can Create Account"
+            count={filters.canCreateAccountOnCareersSite ? 1 : 0}
+            isOpen={isCanCreateAccountOpen}
+            onToggle={() => setIsCanCreateAccountOpen(!isCanCreateAccountOpen)}
+          >
+            <FilterBadge
+              label="Can create account on careers site"
+              isSelected={filters.canCreateAccountOnCareersSite}
+              onClick={toggleCanCreateAccount}
+            />
           </FilterSection>
         </div>
       </div>

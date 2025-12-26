@@ -75,6 +75,7 @@ export function buildGraph(companies: Company[]): GraphData {
         type: "visaSponsorship",
         level: 2,
         data: visaSponsorship,
+        field: field, // Add field for color coding and InspectPane navigation
       });
       // Connect visa sponsorship to field
       edges.push({

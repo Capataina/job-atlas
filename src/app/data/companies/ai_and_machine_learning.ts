@@ -55,7 +55,7 @@ export const aiAndMachineLearning: Company[] = [
       likelihood: VisaSponsorship.High,
       notes: "Sponsors select roles across US and UK offices.",
     },
-    officeLocations: [OfficeLocation.UnitedStates, OfficeLocation.UnitedKingdom],
+    officeLocations: [OfficeLocation.UnitedStates, OfficeLocation.UnitedKingdom, OfficeLocation.France, OfficeLocation.Germany],
     careers: {
       careersUrl: { exists: true, url: "https://www.anthropic.com/careers" },
       canCreateAccountOnCareersSite: false,
