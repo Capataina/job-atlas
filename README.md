@@ -241,15 +241,15 @@ Atlas is built in phases. Each milestone should be demo-able and have clear exit
 
 ### 5) Company inspector panel (moveable overlay)
 
-- [ ] Click company → open inspector panel
-- [ ] Panel shows:
+- [x] Click company → open inspector panel
+- [x] Panel shows:
   - company name
   - tags/facets (read-only)
   - locations (if present)
   - careers link (primary action)
   - website link (secondary action)
 - [ ] Panel is moveable (drag)
-- [ ] Panel close behaviour (escape key and close button)
+- [x] Panel close behaviour (escape key and close button)
 
 **Exit criteria**
 
