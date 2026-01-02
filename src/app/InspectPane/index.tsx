@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Company } from "../data/company_types/types";
-import { Field, VisaSponsorship, OfficeLocation, CurrentATS } from "../data/company_types/enums";
+import { Field, VisaSponsorship, OfficeLocation } from "../data/company_types/enums";
 import { GraphNode } from "../CompanyGraph/types";
 
 // Navigation history types
@@ -207,7 +207,7 @@ function FieldViewContent({
   // Group companies by visa sponsorship likelihood
   const visaGroups = Object.values(VisaSponsorship).map((visa) => {
     const companiesInGroup = fieldCompanies
-      .filter((c) => c.visaSponsorship.likelihood === visa)
+      .filter((c) => c.visaSponsorship === visa)
       .sort((a, b) => a.name.localeCompare(b.name));
     return { visa, companies: companiesInGroup };
   }).filter((g) => g.companies.length > 0);
@@ -271,7 +271,7 @@ function VisaViewContent({
   onNavigate: (view: View) => void;
 }) {
   const filteredCompanies = companies
-    .filter((c) => c.field === field && c.visaSponsorship.likelihood === visaLikelihood)
+    .filter((c) => c.field === field && c.visaSponsorship === visaLikelihood)
     .sort((a, b) => a.name.localeCompare(b.name));
 
   return (
@@ -351,12 +351,7 @@ function CompanyViewContent({ company }: { company: Company }) {
         <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">
           Visa Sponsorship
         </h3>
-        <div className="space-y-2">
-          <p className="text-white font-medium">{company.visaSponsorship.likelihood}</p>
-          {company.visaSponsorship.notes && (
-            <p className="text-sm text-gray-400">{company.visaSponsorship.notes}</p>
-          )}
-        </div>
+        <p className="text-white font-medium">{company.visaSponsorship}</p>
       </div>
 
       <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
@@ -374,41 +369,6 @@ function CompanyViewContent({ company }: { company: Company }) {
               {location}
             </span>
           ))}
-        </div>
-      </div>
-
-      <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-
-      <div>
-        <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">
-          Careers
-        </h3>
-        <div className="space-y-2">
-          {company.careers.careersUrl.exists ? (
-            <>
-              <a
-                href={company.careers.careersUrl.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white font-medium transition-all duration-150 border border-white/20 hover:border-white/30"
-              >
-                Visit Careers Page
-                <ExternalLinkIcon className="w-4 h-4" />
-              </a>
-              <div className="flex items-center gap-2 text-sm">
-                <span className="text-gray-400">Can Create Account:</span>
-                <span className={company.careers.canCreateAccountOnCareersSite ? "text-green-400" : "text-red-400"}>
-                  {company.careers.canCreateAccountOnCareersSite ? "Yes" : "No"}
-                </span>
-              </div>
-              <div className="flex items-center gap-2 text-sm">
-                <span className="text-gray-400">ATS:</span>
-                <span className="text-white">{company.careers.ATS}</span>
-              </div>
-            </>
-          ) : (
-            <p className="text-gray-400 text-sm">{company.careers.careersUrl.reason}</p>
-          )}
         </div>
       </div>
 

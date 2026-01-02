@@ -2,45 +2,67 @@ import { Field } from "../data/company_types/enums";
 
 /**
  * Muted pastel color palette for dark theme - modern, luxurious look
- * Each field has a unique color within its theme (e.g., all finance fields are greenish but different shades)
+ * Color themes by category:
+ * - Finance (3 fields): Green shades
+ * - AI/ML/Tech (6 fields): Blue/Cyan shades
+ * - Hardware/Physical (4 fields): Red/Orange/Warm shades
+ * - Enterprise/Gaming/Consumer (3 fields): Purple/Magenta shades
+ * - Crypto: Yellow/Gold
+ * - Professional Services (3 fields): Gray/Neutral shades
  */
 export function getFieldColor(field: Field, nodeType?: string): { background: string; border: string } {
   switch (field) {
-    // Finance fields - different shades of green (themed but distinct)
-    case Field.TraditionalFinance:
-      return { background: "#4a8d6a", border: "#3a7d5a" }; // Darker green
-    case Field.FintechCryptoPaymentsBankingTechnology:
-      return { background: "#5a9d7a", border: "#4a8d6a" }; // Medium green
-    case Field.QuantAndHighFrequencyTrading:
-      return { background: "#6aad8a", border: "#5a9d7a" }; // Lighter green
+    // FINANCE CATEGORY - Green shades (darker to lighter)
+    case Field.TraditionalFinanceAssetManagement:
+      return { background: "#3d7a5a", border: "#2d6a4a" }; // Dark forest green
+    case Field.FintechPaymentsBankingTechnology:
+      return { background: "#4d9a6a", border: "#3d8a5a" }; // Medium green
+    case Field.QuantTradingHFTMarketInfrastructure:
+      return { background: "#5daa7a", border: "#4d9a6a" }; // Light green
+    case Field.MarketDataFinancialTechnologyVendors:
+      return { background: "#6dba8a", border: "#5daa7a" }; // Pale green
 
-    // AI & ML - different shades of blue
-    case Field.AIAndMachineLearning:
-      return { background: "#6a8db8", border: "#5a7da8" }; // Medium blue
+    // AI/ML/TECH CATEGORY - Blue/Cyan shades (darker to lighter)
+    case Field.AIMachineLearning:
+      return { background: "#5a7db8", border: "#4a6da8" }; // Deep blue
+    case Field.AIInfrastructureMLOps:
+      return { background: "#6a8dc8", border: "#5a7db8" }; // Medium blue
+    case Field.DeveloperPlatformsTools:
+      return { background: "#7a9dd8", border: "#6a8dc8" }; // Light blue
+    case Field.CloudDataAnalytics:
+      return { background: "#6a9daa", border: "#5a8d9a" }; // Cyan/teal
+    case Field.Cybersecurity:
+      return { background: "#5a8d9a", border: "#4a7d8a" }; // Dark cyan
+    case Field.QuantumComputing:
+      return { background: "#8aade8", border: "#7a9dd8" }; // Pale blue
 
-    // Systems & Infrastructure - different shades of red/coral
-    case Field.SystemsAndInfrastructure:
-      return { background: "#b88a8a", border: "#a87a7a" }; // Muted red/coral
+    // HARDWARE/PHYSICAL CATEGORY - Red/Orange/Warm shades
+    case Field.SemiconductorsHardware:
+      return { background: "#b87a6a", border: "#a86a5a" }; // Terracotta
+    case Field.AutonomousVehiclesRobotics:
+      return { background: "#c88a7a", border: "#b87a6a" }; // Light terracotta
+    case Field.AerospaceDefence:
+      return { background: "#a86a5a", border: "#985a4a" }; // Dark rust
+    case Field.BiotechHealthcareTech:
+      return { background: "#d89a8a", border: "#c88a7a" }; // Pale coral
 
-    // Developer/Cloud/SaaS - different shades of teal
-    case Field.DeveloperCloudandDataSaaS:
-      return { background: "#7a9d9d", border: "#6a8d8d" }; // Muted teal
-
-    // Big Tech - different shades of purple
+    // ENTERPRISE/GAMING/CONSUMER CATEGORY - Purple/Magenta shades
     case Field.BigTechAndHyperscalers:
-      return { background: "#9d8ab8", border: "#8d7aa8" }; // Muted purple
+      return { background: "#8a7ab8", border: "#7a6aa8" }; // Deep purple
+    case Field.EnterpriseConsumerTech:
+      return { background: "#9a8ac8", border: "#8a7ab8" }; // Medium purple
+    case Field.GamingInteractiveEntertainment:
+      return { background: "#aa9ad8", border: "#9a8ac8" }; // Light purple/lavender
 
-    // Enterprise/Consumer - different shades of orange/peach
-    case Field.EnterpriseIndustryandConsumerTech:
-      return { background: "#b89d8a", border: "#a88d7a" }; // Muted orange/peach
+    // CRYPTO - Yellow/Gold
+    case Field.CryptoWeb3:
+      return { background: "#b8a86a", border: "#a8985a" }; // Muted gold
 
-    // Consulting - different shades of gray
-    case Field.COnsultingAndProfessionalServices:
+    // PROFESSIONAL SERVICES CATEGORY - Gray/Neutral shades
+    case Field.ConsultingProfessionalServices:
       return { background: "#8a8a8a", border: "#7a7a7a" }; // Medium gray
-
-    // Recruiters - different shades of yellow/beige
-    case Field.RecruitersAndTalentAcquisition:
-      return { background: "#b8a88a", border: "#a8987a" }; // Muted yellow/beige
+    case Field.RecruitersTalentIntermediaries:
+      return { background: "#9a9a9a", border: "#8a8a8a" }; // Light gray
 
     default:
       return { background: "#8a8a8a", border: "#7a7a7a" };

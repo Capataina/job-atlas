@@ -1,14 +1,24 @@
 import { Company } from "../data/company_types/types";
-import { bigTechAndHyperscalers } from "../data/companies/big_tech_and_hyperscalers";
-import { fintechCryptoPaymentsBankingTechnology } from "../data/companies/fintech_crypto_payments_banking_technology";
-import { traditionalFinance } from "../data/companies/traditional_finance";
-import { aiAndMachineLearning } from "../data/companies/ai_and_machine_learning";
-import { systemsAndInfrastructure } from "../data/companies/systems_and_infrastructure";
-import { developerCloudAndDataSaaS } from "../data/companies/developer_cloud_and_data_saas";
-import { quantAndHighFrequencyTrading } from "../data/companies/quant_and_high_frequency_trading";
-import { enterpriseIndustryAndConsumerTech } from "../data/companies/enterprise_industry_and_consumer_tech";
-import { consultingAndProfessionalServices } from "../data/companies/consulting_and_professional_services";
-import { recruitersAndTalentAcquisition } from "../data/companies/recruiters_and_talent_acquisition";
+import { bigTechAndHyperscalers } from "../data/companies/BigTechAndHyperscalers";
+import { aiAndMachineLearning } from "../data/companies/AIMachineLearning";
+import { aiInfrastructureMLOps } from "../data/companies/AIInfrastructureMLOps";
+import { developerPlatformsTools } from "../data/companies/DeveloperPlatformsTools";
+import { cloudDataAnalytics } from "../data/companies/CloudDataAnalytics";
+import { cybersecurity } from "../data/companies/Cybersecurity";
+import { enterpriseConsumerTech } from "../data/companies/EnterpriseConsumerTech";
+import { gamingInteractiveEntertainment } from "../data/companies/GamingInteractiveEntertainment";
+import { fintechPaymentsBankingTechnology } from "../data/companies/FintechPaymentsBankingTechnology";
+import { cryptoWeb3 } from "../data/companies/CryptoWeb3";
+import { traditionalFinanceAssetManagement } from "../data/companies/TraditionalFinanceAssetManagement";
+import { quantTradingHFTMarketInfrastructure } from "../data/companies/QuantTradingHFTMarketInfrastructure";
+import { marketDataFinancialTechnologyVendors } from "../data/companies/MarketDataFinancialTechnologyVendors";
+import { semiconductorsHardware } from "../data/companies/SemiconductorsHardware";
+import { quantumComputing } from "../data/companies/QuantumComputing";
+import { autonomousVehiclesRobotics } from "../data/companies/AutonomousVehiclesRobotics";
+import { aerospaceDefence } from "../data/companies/AerospaceDefence";
+import { biotechHealthcareTech } from "../data/companies/BiotechHealthcareTech";
+import { consultingProfessionalServices } from "../data/companies/ConsultingProfessionalServices";
+import { recruitersTalentIntermediaries } from "../data/companies/RecruitersTalentIntermediaries";
 
 /**
  * Aggregates all companies from all data files
@@ -16,15 +26,24 @@ import { recruitersAndTalentAcquisition } from "../data/companies/recruiters_and
 export function loadAllCompanies(): Company[] {
   return [
     ...bigTechAndHyperscalers,
-    ...fintechCryptoPaymentsBankingTechnology,
-    ...traditionalFinance,
     ...aiAndMachineLearning,
-    ...systemsAndInfrastructure,
-    ...developerCloudAndDataSaaS,
-    ...quantAndHighFrequencyTrading,
-    ...enterpriseIndustryAndConsumerTech,
-    ...consultingAndProfessionalServices,
-    ...recruitersAndTalentAcquisition,
+    ...aiInfrastructureMLOps,
+    ...developerPlatformsTools,
+    ...cloudDataAnalytics,
+    ...cybersecurity,
+    ...enterpriseConsumerTech,
+    ...gamingInteractiveEntertainment,
+    ...fintechPaymentsBankingTechnology,
+    ...cryptoWeb3,
+    ...traditionalFinanceAssetManagement,
+    ...quantTradingHFTMarketInfrastructure,
+    ...marketDataFinancialTechnologyVendors,
+    ...semiconductorsHardware,
+    ...quantumComputing,
+    ...autonomousVehiclesRobotics,
+    ...aerospaceDefence,
+    ...biotechHealthcareTech,
+    ...consultingProfessionalServices,
+    ...recruitersTalentIntermediaries,
   ];
 }
-

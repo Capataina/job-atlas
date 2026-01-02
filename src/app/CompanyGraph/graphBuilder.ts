@@ -57,8 +57,8 @@ export function buildGraph(companies: Company[]): GraphData {
 
   // Second pass: Create visa sponsorship nodes per field and connect companies
   for (const company of companies) {
-    const visaSponsorship = company.visaSponsorship.likelihood;
-    const field = company.field; // Single field instead of array
+    const visaSponsorship = company.visaSponsorship; // Now a simple enum value
+    const field = company.field; // Single field
     
     const fieldNodeId = fieldNodes.get(field)!;
     
